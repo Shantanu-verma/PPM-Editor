@@ -221,26 +221,17 @@ public:
 
 int main(){
 
-	Image image(800,600,255,Rgb::White);
-	Image image2("new.ppm");
-
+	Image image(800,600,255,Rgb::White);	
 	image = image + Rgb::MaterialRed;
-
-
+	
 	for(int j = 0 ; j < 70 ; j++){
 	 	for(int i = 0 ; i < 3600 ; i++){
       		int x = (200 + j * 1.5) + 100 * cos((2*3.14*i)/3600);
       		int y = (200 + j * 1.5) + 100 * sin((2*3.14*i)/3600);
 
       		image[(image.height() - y) * image.width() + x] = Rgb::White;
-    	}
+    		}
 	}
-	
-    image.writeppm("hello.ppm");
-	
-	
-
-
-
+    	image.writeppm("circle.ppm");	
 	std::cin.get();	
 }
