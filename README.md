@@ -8,29 +8,29 @@ Reading PPM file
 
 Or
 
-`Image ppmimage;
+`Image ppmimage;`
 
- ppmimage.readppm("texture.ppm");`
+ `ppmimage.readppm("texture.ppm");`
  
 Write PPM files-
 
- `Image ppmimage(800,600,255,,Rgb::White);
+ `Image ppmimage(800,600,255,,Rgb::White);`
  
-  ppmimage.writeppm("new.ppm");`
+  `ppmimage.writeppm("new.ppm");`
   
 Support some premade colors-
 
-  `Rgb::Red
+  `Rgb::Red`
   
-  Rgb::Blue
+  `Rgb::Blue`
   
-  Rgb::Black
+  `Rgb::Black`
   
-  Rgb::White 
+  `Rgb::White `
   
-  Rgb::Materialblue 
+  `Rgb::Materialblue `
   
-  Rgb::MaterialRed `
+  `Rgb::MaterialRed `
   
   
  Error Handling supported
