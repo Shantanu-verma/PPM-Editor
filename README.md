@@ -26,7 +26,12 @@
  
  ppmimage.writeppm("new.ppm");
   ```
-  
+## 4.Construct ppm with constructor Accepting args-
+
+ ```
+ Width , Height , Max pixel depth , Color
+ ```
+
 ## 4.Support some premade colors-
 
   `Rgb::Red`
