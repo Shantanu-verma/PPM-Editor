@@ -1,16 +1,16 @@
 # PPM-Editor
 1.Compilation-
-`g++ -o ppm.exe ppmreader.cpp -std=c++11 `
+ `g++ -o ppm.exe ppmreader.cpp -std=c++11 `
 
 2.Reading PPM file
 
-`Image ppmimage("texture.ppm");`
+ `Image ppmimage("texture.ppm");`
 
 Or
 
-`Image ppmimage;`
+  `Image ppmimage;`
 
- `ppmimage.readppm("texture.ppm");`
+  `ppmimage.readppm("texture.ppm");`
  
 3.Write PPM files-
 
@@ -37,7 +37,7 @@ Or
  
  6.For Hex to rgb use
  
- `Rgb().hex<0x000000>();` which is at compile time.
+  `Rgb().hex<0x000000>();` which is at compile time.
  
  7.Support Basic arithmatic between colors and images
  
